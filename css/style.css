@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* all section  */
+.container{
+    width:1200px;
+    margin: auto;
+}
+/* banner up---------------  */
+.banner-top {
+    background-color: #e5547396;
+}
+
+.banner-left {
+    width: 600px;
+}
+
+.banner-right {
+    width: 600px;
+}
+.container.main-div {
+    display: flex;
+    align-items: center;
+    height: 589px;
+}
+
+.banner-left h1 {
+    font-size: 50px;
+}
+
+.banner-right img {
+    width: 470px;
+}
+
+.banner-left p {
+    font-size: 16px;
+    padding: 10px 0px;
+    color: #272727;
+}
+
+button.btn {
+    background-color: #E55473;
+    border: none;
+    color: white;
+    padding: 11px 21px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Our Featured Flowers style */
+section.flowers-section.container {
+    padding: 40px 0px;
+}
+
+.flowers-title {
+    text-align: center;
+}
+
+.flowers-title h1 {
+    padding: 10px 0px;
+    font-size: 30px;
+}
+
+.flowers-title p {
+    color: #272727;
+}
+.flower-box-all {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    flex-wrap: wrap;
+}
+
+.flower-single-box {
+    text-align: center;
+    background: #a7216263;
+    padding: 26px 59px;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+}
+
+.flower-single-box img {
+    width: 242px;
+}
+.box{
+    text-align: center;
+}
+.box h1 {
+    text-decoration: underline;
+    padding: 10px 0px;
+}
+.flower-single-box.box-1 img {
+    width: 242px;
+    height: 352px;
+}
+
+.flower-single-box.box-2 img {
+    width: 242px;
+    height: 352px;
+}
+
+.flower-single-box.box-2 {
+    background-color: #0597a052;
+}
+
+.flower-single-box.box-3 {
+    background-color: #477d1170;
+}
+
+.flower-single-box.box-3 img {
+    width: 242px;
+    height: 352px;
+}
+/* !awsome icon sysetem */
+section.container.awsome-system {
+    padding: 21px 0px;
+}
+.awsome {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 26px 87px;
+    background: #2727271c;
+    border-radius: 10px;
+}
+
+.awsome-box-1 img {
+    width: 59px;
+}
+
+.awsome-box-1 h1 {
+    color: #272727;
+    font-size: 18px;
+}
+/* discount style */
+section.banner-top.discount-top {
+    background: #e5547336;
+}
+
+.banner-left.discount-left {
+    text-align: center;
+}
+
+.banner-left.discount-left h1 {
+    font-size: 27px;
+}
+
+.banner-right.discount-right img {
+    width: 215px;
+}
+
+.container.main-div.discont-section {height: 400px;}
+
+.banner-right.discount-right {
+    margin-left: 183px;
+}
+span.off {
+    color: #E55473;
+}
+/* Instagram */
+.instagram-section{
+    padding: 30px 0px;
+}
+.ins-box-area {
+    padding: 37px 0px;
+    display: flex;
+    gap: 25px;
+}
+.ins-box img {
+    width: 281px;
+}
+/* search style */
+.search-section{
+    padding: 30px;
+}
+.bg-imge img {
+    width: 100%;
+}
+
+.bg-imge {
+    position: relative;
+}
+.text-bg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.text-bg h1 {
+    font-size: 53px;
+}
+
+.text-bg p {
+    font-size: 20px;
+    color: #272727bf;
+}
+.text-bg input {
+    border: none;
+    width: 419px;
+    padding: 13px 5px;
+    border-radius: 5px;
+}
+
+button.btn.btn-2 {
+    margin-left: 10px;
+    padding: 13px 24px;
+}
+/* all input focus remove */
+input:focus {
+    outline: none;
+}
+footer.footer-secton {
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.bg-footer.container h1 {
+    font-size: 41px;
+    margin-bottom: 10px;
+}
+
+.bg-footer.container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.bg-footer.container h3 {color: #BA7979;font-size: 14px;}
+span.flower {
+    color: #E55473;
+}
